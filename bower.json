@@ -1,0 +1,22 @@
+{
+  "name": "cordova-env",
+  "main": "cordova-env.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hartwig-at/cordova-env",
+  "authors": [
+    "Oliver Salzburg <oliver.salzburg@gmail.com>"
+  ],
+  "description": "Resolve information about Cordova environment",
+  "keywords": [
+    "cordova"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
+}
