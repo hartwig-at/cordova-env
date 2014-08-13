@@ -47,7 +47,7 @@
 
 		} else {
 			window.CordovaEnvironment.isLoaded = true;
-			if( window.device.platform.toLowerCase() === "android" && window.device.model === "sdk" ) {
+			if( window.device.platform.toLowerCase() === "android" && ( window.device.model === "sdk" || window.device.model == "Android SDK built for x86" ) ) {
 				window.CordovaEnvironment.isEmulated = true;
 			}
 			if( window.device.platform.toLowerCase() === "blackberry10" && window.device.model === "All Touch [1280x768]" ) {
