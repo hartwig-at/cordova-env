@@ -53,6 +53,9 @@
 			if( window.device.platform.toLowerCase() === "blackberry10" && window.device.model === "All Touch [1280x768]" ) {
 				window.CordovaEnvironment.isEmulated = true;
 			}
+			if( window.device.platform.toLowerCase() === "ios" && window.device.model === "x86_64" ) {
+				window.CordovaEnvironment.isEmulated = true;
+			}
 		}
 
 		console.log( window.CordovaEnvironment );
