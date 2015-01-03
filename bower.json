@@ -1,6 +1,6 @@
 {
   "name": "cordova-env",
-  "main": "cordova-env.js",
+  "main": "src/cordova-env.js",
   "version": "0.0.1",
   "homepage": "https://github.com/hartwig-at/cordova-env",
   "authors": [
